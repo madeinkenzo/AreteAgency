@@ -10,5 +10,4 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // gotta upload
-  
+  // gotta upload again
