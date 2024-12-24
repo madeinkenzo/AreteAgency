@@ -9,3 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
       document.body.innerHTML = '<h1> Sorry, this website is only accessible on mobile devices. </h1>';
     }
   });
+
+  // gotta upload
+  
