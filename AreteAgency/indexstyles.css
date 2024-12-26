@@ -75,4 +75,47 @@ body {
     font-weight: 100;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+
+.logo {
+    height: 40px;
+    margin-top: 75px;
+    margin-left: -140px;
 }
+
+.ComingSoon {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    padding-top: 71px;
+    padding-left: 15px;
+}
+
+.navbar {
+    gap: 27px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0; /* Adds some vertical spacing */
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    text-align: center; /* Aligns text and icon */
+    display: flex;
+    flex-direction: column; /* Stacks icon and text */
+    align-items: center;
+  }
+
+.navbar a i {
+
+    font-size: 18px; /* Adjust icon size */
+    margin-bottom: 5px; /* Spacing between icon and text */
+  }
