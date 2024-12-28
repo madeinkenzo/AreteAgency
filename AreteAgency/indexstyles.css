@@ -7,11 +7,29 @@ body {
   background-color: #1E1E1E;
 }
 
+/* Adjustments for smaller screens (like iPhone) */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 15px;
+  }
 
-@media (max-width: 768px) {
-  /* Adjust styles for smaller screens */
-  .container {
-      flex-direction: column;
+  .navbar {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+/* Further adjustments for very small screens (iPhone SE or smaller devices) */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .navbar {
+    padding: 8px;
+    font-size: 14px;
   }
 }
 
