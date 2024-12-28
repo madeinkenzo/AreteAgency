@@ -2,6 +2,12 @@ body {
   background-color: #1E1E1E;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media (max-width: 768px) {
   /* Adjust styles for smaller screens */
   .container {
