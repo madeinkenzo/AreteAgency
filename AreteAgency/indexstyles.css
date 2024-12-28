@@ -2,6 +2,13 @@ body {
   background-color: #1E1E1E;
 }
 
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .container {
+      flex-direction: column;
+  }
+}
+
 .heading {
   padding-left: 40px;
   padding-top: 80px;
