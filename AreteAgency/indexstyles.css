@@ -18,11 +18,6 @@ body {
     padding: 10px;
     font-size: 16px;
   }
-
-  .updatebox {
-    width: 300px;
-    height: 10px;
-  }
 }
 
 /* Further adjustments for very small screens (iPhone SE or smaller devices) */
@@ -92,7 +87,7 @@ body {
 .updatebox {
   border-radius: 20px;
   width: 300px;
-  height: 350px;
+  height: 290px;
   background-color: rgba(0, 0, 0, 0.35);
   margin: auto;
   display: flex;
