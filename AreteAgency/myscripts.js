@@ -1,3 +1,9 @@
+const link = document.createElement('link');
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = 'styles.css';
+document.head.appendChild(link);
+
 document.addEventListener("DOMContentLoaded", function () {
     // Function to detect mobile devices
     function isMobileDevice() {
@@ -6,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
     // Check and restrict access
     if (!isMobileDevice()) {
-      document.body.innerHTML = '<h1 style="color: white"> Sorry, this website is only accessible on mobile devices. </h1>';
+      document.body.innerHTML = '<h1 class="scriptcount" > Sorry, this website is only accessible on mobile devices. </h1>';
     }
   });
 
