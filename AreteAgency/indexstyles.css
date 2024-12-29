@@ -17,6 +17,10 @@ body {
     padding: 15px;
   }
 
+  .todobox{
+    font-size: 19px;
+  }
+
   .navbar {
     padding: 10px;
     font-size: 16px;
@@ -25,9 +29,13 @@ body {
 
 /* Further adjustments for very small screens (iPhone SE or smaller devices) */
 @media screen and (max-width: 480px) {
-  body {
+  .heading {
     font-size: 35px;
     padding: 10px;
+  }
+
+  .todobox {
+    font-size: 15px;
   }
 
   .navbar {
