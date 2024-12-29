@@ -5,6 +5,9 @@
 
 body {
   background-color: #1E1E1E;
+  margin: 0;
+  grid-template-rows: 1fr auto; /* Resizable box gets remaining space, navbar gets auto height */
+  height: 100vh;
 }
 
 /* Adjustments for smaller screens (like iPhone) */
@@ -91,6 +94,7 @@ body {
   background-color: rgba(0, 0, 0, 0.35);
   margin: auto;
   display: flex;
+  flex-grow: 1;
 }
 
 .todobox {
@@ -156,6 +160,7 @@ body {
   justify-content: center;
   padding: 10px 0;
   z-index: 10;
+  flex-shrink: 0;
 }
 
 .navbar a {
